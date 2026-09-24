@@ -1,0 +1,29 @@
+{
+  "name": "workerserverinfo",
+  "version": "1.0.0",
+  "description": "a server query tool running on cloudFlare worker",
+  "type": "module",
+  "license": "MIT",
+  "author": "Monster Box Studio",
+  "homepage": "https://github.com/Monster-Box/Server_Worker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monster-Box/Server_Worker.git"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler pages deploy public"
+  },
+  "devDependencies": {
+    "wrangler": "^4.136.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cloudflare-pages",
+    "cloudflare-functions",
+    "server-info",
+    "config-api"
+  ]
+}
