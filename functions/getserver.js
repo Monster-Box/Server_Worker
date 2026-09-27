@@ -6,7 +6,7 @@
 //     https://github.com/Monster-Box
 //
 
-import raw from '../src/servers.js'
+import raw from './lib/servers.js'
 import { pick, fmt } from './lib/load.js'
 
 

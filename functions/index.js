@@ -7,7 +7,7 @@
 //
 
 
-import conf from '../src/config.js'
+import conf from './lib/config.js'
 
 export async function onRequest(context) {// onR 返回json格式
   return Response.redirect(conf.home, 302)
