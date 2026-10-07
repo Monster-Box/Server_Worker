@@ -7,11 +7,11 @@
 export default {
   servers: [
     {
-      id: 'test', // query key, matched by ?id=
-      name: 'tg', // sidebar title
-      ip: '192.0.2.1',
-      port: 9443,
-      pubkey: 'NULL',
+      id: 'baigram', // query key, matched by ?id=
+      name: 'Baigram', // sidebar title
+      ip: '127.0.0.1',
+      port: 9442,
+      pubkey: '-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAyvtCrgb/pUx09Bn4QHy1Fsz3F5EZe24GcjY8KziFzjhTOAkkDHeM\naSBsCfiIChgzU9oJEWP2FPaFa4K2iiRbZNb1SktmA4w4FdNO/uIqo4i1emTrZT6l\npC7sHED+ZKO8Iessoqt3NBE5oApuKbvtRvNRA+xn6EzvdupYzTIrghgaR+CzK1Cs\n63TK3uwCG+xWwfdK3U95cAB8U1bFeeE0gWguMT+zcYxFcWQCBxW/BYg2Piuuztie\nFJO7wFe6cuX4CaVlTorWet5/JlKzJz3MFGHRQHgRk1bixzFmc4z99UWG6G5Vpxhs\nTOlMx6qlFl8TNLPSEaSBPMp5gP1jnAtOtwIDAQAB\n-----END RSA PUBLIC KEY-----',
       systray_light: '', // tray icon, light theme
       systray_dark: '', // tray icon, dark theme
       deeplink: 'tg', // used as <deeplink>://settings
