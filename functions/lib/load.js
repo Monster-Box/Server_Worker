@@ -17,7 +17,8 @@ export function fmt(body, status = 200) {
     status,
     headers: {
       'content-type': 'application/json; charset=utf-8',
-      'cache-control': 'no-store'
+      'cache-control': 'no-store',
+      'access-control-allow-origin': '*'
     }
   })
 }

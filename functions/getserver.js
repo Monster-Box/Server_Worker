@@ -32,6 +32,8 @@ export async function onRequestGet(context) {
     ip: s.ip,
     name: s.name,
     port: s.port,
+    ws_ip: s.ws_ip,
+    ws_port: s.ws_port,
     pubkey: s.pubkey,
     systray_light: s.systray_light,
     systray_dark: s.systray_dark,
