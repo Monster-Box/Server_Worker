@@ -54,7 +54,9 @@ function assetLinks(body) {
   })
 }
 
-export async function onRequestGet(context) {
+// Handles every method: Play Services probes the assetlinks document with HEAD
+// before GET, and a method-specific handler would leave HEAD at the static 404.
+export async function onRequest(context) {
   const url = new URL(context.request.url)
   const parts = url.pathname.split('/').filter(Boolean)
 
