@@ -7,6 +7,12 @@ export default {
     {
       "id": "baigram",
       "name": "Baigram",
+      "passkey": {
+        "rp_id": "server-worker.pages.dev",
+        "origin": "https://server-worker.pages.dev",
+        "package_name": "im.baigram",
+        "sha256_cert_fingerprints": ["A0:8D:7D:C3:23:DD:F7:1E:F3:20:19:44:39:7E:0D:3C:CE:7D:40:84:72:63:E1:1F:32:8B:68:BB:E1:92:29:AB"]
+      },
       "ip": "192.168.1.19",
       "port": 9442,
       "ws_ip": "192.168.1.19", //web wss ip
@@ -23,6 +29,12 @@ export default {
     {//new serverinfo
       "id": "official",
       "name": "official",
+      "passkey": {
+        "rp_id": "server-worker.pages.dev",
+        "origin": "https://server-worker.pages.dev",
+        "package_name": "im.baigram",
+        "sha256_cert_fingerprints": ["A0:8D:7D:C3:23:DD:F7:1E:F3:20:19:44:39:7E:0D:3C:CE:7D:40:84:72:63:E1:1F:32:8B:68:BB:E1:92:29:AB"]
+      },
       "ip": "38.76.198.237",
       "port": 9442,
       "ws_ip": "38.76.198.237", //web wss ip
